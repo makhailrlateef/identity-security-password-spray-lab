@@ -57,16 +57,18 @@ flowchart TD
 
 | File | Purpose |
 |---|---|
-| `src/detect.py` | Readable detector with input validation and optional JSON export |
-| `data/spray.csv` | Suspicious pattern plus a success to investigate |
-| `data/benign.csv` | Repeated mistakes and separated events that should not alert |
-| `tests/test_detect.py` | 12 automated checks |
-| `docs/WALKTHROUGH.md` | Setup, exercises, expected outcomes, and troubleshooting |
-| `docs/INVESTIGATION-TEMPLATE.md` | Fill in your own analysis |
-| `docs/ANSWER-KEY.md` | Compare after completing the exercises |
-| `docs/PUBLISHING.md` | GitHub preparation and accurate portfolio wording |
-| `evidence/expected-alerts.json` | Reference output from a run during preparation |
-| `evidence/verification.txt` | Test and CLI verification from preparation |
+| `src/detect.py` | Password spray detector with input validation and JSON export |
+| `data/spray.csv` | Suspicious sign-ins followed by a successful login |
+| `data/benign.csv` | Sample activity that should not trigger the rule |
+| `tests/test_detect.py` | 12 automated detection tests |
+| `docs/WALKTHROUGH.md` | Setup instructions and lab exercises |
+| `docs/MY-INVESTIGATION.md` | Completed investigation and findings |
+| `docs/PUBLISHING.md` | Publishing guidance and portfolio wording |
+| `evidence/my-alerts.json` | Alert generated during my lab run |
+| `evidence/evidence01-lab-results.png.png` | Passing tests, alert, timeline, and benign result |
+| `evidence/02-threshold-test.png` | Four-account threshold test |
+| `evidence/expected-alerts.json` | Reference alert output |
+| `evidence/verification.txt` | Verification results from lab preparation |
 
 ## How the detector works
 
