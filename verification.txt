@@ -1,0 +1,9 @@
+Preparation verification — synthetic data only
+Runtime: Python 3.12; Linux
+Unit tests: 12 passed (python3 -m unittest discover -s tests -v)
+Windows commands provided; Windows execution not performed here.
+
+python3 src/detect.py data/spray.csv -> 1 alerts; PASS
+python3 src/detect.py data/benign.csv -> 0 alerts; PASS
+python3 src/detect.py data/spray.csv --min-users 4 -> 0 alerts; PASS
+python3 src/detect.py data/spray.csv --window-minutes 4 -> 0 alerts; PASS

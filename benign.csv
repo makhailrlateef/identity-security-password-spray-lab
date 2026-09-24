@@ -1,0 +1,7 @@
+timestamp,user,ip_address,result
+2026-09-01T12:00:00Z,drew@example.test,203.0.113.20,failure
+2026-09-01T12:01:00Z,drew@example.test,203.0.113.20,failure
+2026-09-01T12:02:00Z,drew@example.test,203.0.113.20,failure
+2026-09-01T12:03:00Z,drew@example.test,203.0.113.20,success
+2026-09-01T12:25:00Z,erin@example.test,203.0.113.20,failure
+2026-09-01T12:40:00Z,frank@example.test,203.0.113.20,failure

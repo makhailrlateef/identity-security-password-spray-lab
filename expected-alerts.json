@@ -1,0 +1,15 @@
+[
+  {
+    "rule": "Possible password spray",
+    "source_ip": "198.51.100.10",
+    "first_seen_utc": "2026-09-01T12:00:00+00:00",
+    "last_seen_utc": "2026-09-01T12:05:00+00:00",
+    "distinct_users": 3,
+    "failed_attempts": 3,
+    "users": [
+      "alex@example.test",
+      "blair@example.test",
+      "casey@example.test"
+    ]
+  }
+]
